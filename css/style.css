@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+    color: white;
+    text-align: center;
+}
+#warpper{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: black;
+    height: 100px;
+}
+.flex-content{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 500px;
+    padding: 15px;
+    margin: 10px;
+}
+.sidebar-left{
+    background-color: blue;
+    flex-grow: 2;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+.main-contant{
+    background-color: green;
+    flex-grow: 5;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+.sidebar-right{
+    background-color: blueviolet;
+    flex-grow: 2;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+footer{
+    background-color: purple;
+    height: 100px;
+}

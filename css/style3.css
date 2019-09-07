@@ -1,0 +1,44 @@
+body{
+    font-family: "Garamond";
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.troll{
+    flex-grow: 1;
+}
+.topics{
+    flex-grow: 1;
+}
+.articles{
+    flex-grow: 1;
+}
+.back{
+    background-color: red;
+    
+}
+h1{
+    font-size: 44px;
+}
+.font1{
+    font-size: 25px;
+}
+.font2{
+    font-size: 30px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.link:hover{
+    background-color: crimson;
+    color: white;
+}
+.img:hover{
+    opacity: 0.6;
+}
